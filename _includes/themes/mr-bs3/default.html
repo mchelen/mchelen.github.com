@@ -69,6 +69,10 @@
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
+            <!-- secondary navigation links -->
+            {% assign pages_list = site.pages %}
+            {% assign group = 'secondary-navigation' %}
+            {% include JB/pages_list %}
           </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
@@ -81,10 +85,8 @@
 
     <div id="footer">
       <div class="container">
-        <p>Content by {{ site.author.name }}
-          with design from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>,
-          <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>, and 
-          <a href="http://themes.jekyllbootstrap.com/preview/mark-reid/">Mark Reid</a>.
+        <p>Website built by {{ site.author.name }}
+          with the <a href="/credits.html" title="Website Credits">help of many</a>.
         </p>
       </div>
     </div id="footer">
