@@ -152,6 +152,7 @@ div.navbar-header {
 
 .page-header {
   margin: 0px;
+ border-bottom: none;
 
 }
 
