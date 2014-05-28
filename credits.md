@@ -7,9 +7,9 @@ group: navigation
 
 This site built with:
 
-<a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-<a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-<a href="http://themes.jekyllbootstrap.com/preview/mark-reid/" target="_blank">Mark Reid</a>
+- <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+- <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+- <a href="http://themes.jekyllbootstrap.com/preview/mark-reid/" target="_blank">Mark Reid</a>
 
 https://github.com/FortAwesome/Font-Awesome
 
