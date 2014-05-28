@@ -77,16 +77,25 @@ h1, h2, h3, h4 {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+
+
+/*  --- custom for mr-bs3 ----  */  
+
+html, body {
+height:auto;
+}  
   
   
 #wrap {
   line-height: 1.5em;
-  margin: 0px auto 3em;
+  margin: 0px auto 1em;
   max-width: 46em;
+  min-height: 0;
 }
 
 
-div.container {
+#wrap > div.container {
   box-shadow: 2px 2px 8px #aaa;
 	-webkit-box-shadow: 2px 2px 8px #aaa;
 	-moz-box-shadow: 2px 2px 8px #aaa;	
@@ -108,12 +117,12 @@ nav.navbar {
 
 .navbar-brand {
     padding-bottom:0px;
-    padding-top:25px;    
+    padding-top:20px;    
 }
 
 .navbar-nav > li > a {
     padding-bottom: 0px;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 div.navbar-header {
@@ -149,12 +158,24 @@ font-size: 20px;
 }
 
 
-
-
-
 .navbar-default .navbar-nav > .active > a {
   background-image: none;
   box-shadow: none;
   border-bottom: 1px solid;
 
 }
+
+#footer {
+background-color: #F5F5F5;
+color: #808080;
+font-style: italic; 
+}
+
+
+#footer > div.container {
+  max-width: 46em;
+  text-align: center;
+}
+
+
+
