@@ -10,13 +10,13 @@ tagline: Supporting tagline
 
 <ul class="rrssb-buttons clearfix">
     <li class="email">
-    <a href="mailto:foo@example.com">
-                            <span class="text">email</span>
-                        </a>
-                        </li>
+      <a href="mailto:foo@example.com">
+              email
+      </a>
+    </li>
     <li class="facebook"><a href="http://facebook.com/mikechelen">Facebook</a></li>
     <li class="twitter"><a href="http://twitter.com/mikechelen">Twitter</a></li>
- </ul>
+</ul>
 
 
 
