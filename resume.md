@@ -1,12 +1,9 @@
 ---
 layout: page
-title : Resume
+title : Résumé
 group: navigation
 ---
 {% include JB/setup %}
 
-### foo ###
+### Coming Soon ###
 
-- bar
-- bar
-- bar

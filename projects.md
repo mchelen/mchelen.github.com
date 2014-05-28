@@ -5,8 +5,5 @@ group: navigation
 ---
 {% include JB/setup %}
 
-### foo ###
+- [My Blog](http://michaelchelen.net)
 
-- bar
-- bar
-- bar
