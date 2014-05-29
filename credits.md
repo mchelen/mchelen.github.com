@@ -4,7 +4,7 @@ title : Credits
 ---
 {% include JB/setup %}
 
-Website built with help from:
+Website built with:
 
 - <a href="http://http://jekyllrb.com/" target="_blank" title="Jekyll">Jekyll</a>
 - <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
