@@ -1,6 +1,7 @@
 ---
 layout: page
 title : Credits
+group: secondary-navigation
 ---
 {% include JB/setup %}
 

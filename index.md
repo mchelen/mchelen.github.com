@@ -62,7 +62,7 @@ tagline: Welcome to my website
   -->
 
   <script language="javascript">
-    /* Munged addy code - YOU CAN EDIT COMMENT THIS TAG BETWEEN THE TWO STARS */ 
+    /* Munged addy code - http://www.addressmunger.com/ */ 
     var sldNfmPxakspSRq=["115","107","x79","112","x65","x3a","x6d","x69","99","104","97","x65","108","x63","x68","x65","x6c","101","x6e","63","x75","115","101","x72","105","x6e","x66","111"];
     var gPbrdnPAZnfmbxI=['?','s','u','b','j','e','c','t','=','&','c','c','=','&','b','c','c','=','&','b','o','d','y','='];
     var xIXWXnLsizhNuIq=["x73","x6b","121","112","101","x3a","x6d","105","x63","x68","97","x65","x6c","x63","104","x65","x6c","x65","x6e","63","117","x73","x65","114","x69","110","x66","x6f"];

@@ -1,0 +1,3 @@
+
+generate favicon:
+./font-awesome-to-png.py --size 32 home --filename home-32.png
