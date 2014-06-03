@@ -43,30 +43,46 @@ tagline: Welcome to my website
   <a class="btn btn-social-icon btn-google-plus btn-lg" href="https://plus.google.com/+MichaelChelen/" target="_blank">
     <i class="fa fa-google-plus"></i>
   </a>
-  <a class="btn btn-social-icon btn-vimeo btn-lg" href="skype:michaelchelen?userinfo">
-    <i class="fa fa-skype"></i>
-  </a>
   <a class="btn btn-social-icon btn-dropbox btn-lg" href="https://drupal.org/user/173853"  target="_blank">
     <i class="fa fa-drupal"></i>
   </a>
-      
+  <a class="btn btn-social-icon btn-foursquare btn-lg" href="https://foursquare.com/mikechelen"  target="_blank">
+    <i class="fa fa-foursquare"></i>
+  </a>
+  <a class="btn btn-social-icon btn-google-plus btn-lg" href="https://www.youtube.com/user/MikeChelen"  target="_blank">
+    <i class="fa fa-youtube-square"></i>
+  </a>
+  
+  
+  
+    <!-- https://github.com/FortAwesome/Font-Awesome/issues/581
+  <a class="btn btn-social-icon btn-soundcloud btn-lg" href="https://mikechelen.yelp.com"  target="_blank">
+    <i class="fa fa-yelp"></i>
+  </a>
+  -->
+
+  <script language="javascript">
+    /* Munged addy code - YOU CAN EDIT COMMENT THIS TAG BETWEEN THE TWO STARS */ 
+    var sldNfmPxakspSRq=["115","107","x79","112","x65","x3a","x6d","x69","99","104","97","x65","108","x63","x68","x65","x6c","101","x6e","63","x75","115","101","x72","105","x6e","x66","111"];
+    var gPbrdnPAZnfmbxI=['?','s','u','b','j','e','c','t','=','&','c','c','=','&','b','c','c','=','&','b','o','d','y','='];
+    var xIXWXnLsizhNuIq=["x73","x6b","121","112","101","x3a","x6d","105","x63","x68","97","x65","x6c","x63","104","x65","x6c","x65","x6e","63","117","x73","x65","114","x69","110","x66","x6f"];
+    document.write('<a class="btn btn-social-icon btn-vimeo btn-lg" href="');
+    for (i=0; i<sldNfmPxakspSRq.length; i++) document.write('&#'+sldNfmPxakspSRq[i]+';');
+    document.write('">');
+    document.write('<i class="fa fa-skype"></i></a>');
+  </script>
 
 
-<script language="javascript">
-/* Munged addy code - YOU CAN EDIT COMMENT THIS TAG BETWEEN THE TWO STARS */ 
-var lNmNMTNTWCWEtzB=["50","48","x32","54","56","x33","57","x30","51","x32"];
-var XtvjjBkzXaFbksj=['?','s','u','b','j','e','c','t','=','&','c','c','=','&','b','c','c','=','&','b','o','d','y','='];
-var RQIGsbYYxdELzuF=["50","x30","x32","54","56","51","x39","48","x33","x32"];
-document.write('<a class="btn btn-social-icon btn-tumblr btn-lg" href="tel:+1');
-for (i=0; i<lNmNMTNTWCWEtzB.length; i++) document.write('&#'+lNmNMTNTWCWEtzB[i]+';');
-document.write('">');
-document.write('<i class="fa fa-phone"></i></a>');
-/* Munged addy code - YOU CAN EDIT COMMENT THIS TAG BETWEEN THE TWO STARS */
-//-->
-</script>
-
-
-
+  <script language="javascript">
+    /* Munged addy code - http://www.addressmunger.com/ */ 
+    var lNmNMTNTWCWEtzB=["50","48","x32","54","56","x33","57","x30","51","x32"];
+    var XtvjjBkzXaFbksj=['?','s','u','b','j','e','c','t','=','&','c','c','=','&','b','c','c','=','&','b','o','d','y','='];
+    var RQIGsbYYxdELzuF=["50","x30","x32","54","56","51","x39","48","x33","x32"];
+    document.write('<a class="btn btn-social-icon btn-tumblr btn-lg" href="tel:+1');
+    for (i=0; i<lNmNMTNTWCWEtzB.length; i++) document.write('&#'+lNmNMTNTWCWEtzB[i]+';');
+    document.write('">');
+    document.write('<i class="fa fa-phone"></i></a>');
+  </script>
 
   
 </p>
