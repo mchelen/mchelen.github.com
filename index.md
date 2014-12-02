@@ -46,12 +46,14 @@ tagline: Welcome to my website
   <a class="btn btn-social-icon btn-dropbox btn-lg" href="https://drupal.org/user/173853"  target="_blank">
     <i class="fa fa-drupal"></i>
   </a>
+  <!--
   <a class="btn btn-social-icon btn-foursquare btn-lg" href="https://foursquare.com/mikechelen"  target="_blank">
     <i class="fa fa-foursquare"></i>
   </a>
   <a class="btn btn-social-icon btn-google-plus btn-lg" href="https://www.youtube.com/user/MikeChelen"  target="_blank">
     <i class="fa fa-youtube-square"></i>
   </a>
+  -->
   
   
   
