@@ -1,0 +1,7 @@
+<div class="popup-gallery">
+{% for item in gallery %}
+	<a href="/file/{{ item }}" title="">
+	  <img src="/file/thumb/{{ item }}" width="{{ include.galleryImgWidth }}">
+  </a>
+{% endfor %}
+</div>
