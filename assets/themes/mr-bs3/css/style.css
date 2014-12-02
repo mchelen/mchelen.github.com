@@ -218,17 +218,34 @@ font-style: italic;
 }
 
 
-/* fancyboxy */
-a.fancybox-thumb > img {
-  margin: 10px;
+
+
+
+/* magnific popup */
+div.popup-gallery img {
   border: 1px solid lightgray;
 }
 
-a.fancybox-thumb > img:hover {
+div.popup-gallery img:hover {
   border: 1px solid gray;
 }
 
 /* override bootstrap */
-a.fancybox-thumb:hover {
+div.popup-gallery a:hover {
   text-decoration: none !important;
+}
+
+
+
+ul.portfolio-posts > li > h1 > a {
+color: black;
+font-size: 125%;
+}
+
+ul.portfolio-posts {
+   list-style: none;
+}
+
+ul.portfolio-posts ul.tag_box {
+  padding: 0px;
 }
