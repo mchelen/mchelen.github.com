@@ -5,14 +5,23 @@ group: secondary-navigation
 ---
 {% include JB/setup %}
 
-### Coming Soon ###
-
-<ul class="posts">
+<ul class="posts portfolio-posts">
   {% for post in site.categories["portfolio"] %}
 
-    <li>
-      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    <li><h1>
+      <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    </h1>
+
+      {{ post.content | split:"<!--more-->" | first }}
+
+      {% unless post.tags == empty %}
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-tags gray"></i></li>
+      {% assign tags_list = post.tags %}
+      {% include JB/tags_list %}
+    </ul>
+      {% endunless %} 
+
     </li>
-    
   {% endfor %}
 </ul>
