@@ -23,15 +23,19 @@ ant
 
 
 <div>
+  <a class="fancybox-thumb" rel="fancybox-thumb" href="/file/screenshot-search-berry.jpg" title="">
+	  <img src="/file/thumbs/screenshot-search-berry.jpg" alt="" width="60" />
+  </a>
 
-<a class="fancybox-thumb" rel="fancybox-thumb" href="/file/screenshot-search-berry.jpg" title="">
-	<img src="/file/screenshot-search-berry.jpg" alt="" height="100" width="60" />
-</a>
-
-<a class="fancybox-thumb" rel="fancybox-thumb" href="/file/screenshot-search-flower.jpg" title="">
-	<img src="/file/screenshot-search-flower.jpg" alt="" height="100" width="60" />
-</a>
-
+  <a class="fancybox-thumb" rel="fancybox-thumb" href="/file/screenshot-detail-ilex.jpg" title="">
+	  <img src="/file/thumbs/screenshot-detail-ilex.jpg" alt="" width="60" />
+  </a>
+  <a class="fancybox-thumb" rel="fancybox-thumb" href="/file/screenshot-search-flower.jpg" title="">
+	  <img src="/file/thumbs/screenshot-search-flower.jpg" alt="" width="60" />
+  </a>
+  <a class="fancybox-thumb" rel="fancybox-thumb" href="/file/screenshot-detail-asclepias.jpg" title="">
+	  <img src="/file/thumbs/screenshot-detail-asclepias.jpg" alt="" width="60" />
+  </a>
 </div>
 
 

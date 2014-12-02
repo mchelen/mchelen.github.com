@@ -217,11 +217,16 @@ font-style: italic;
   color: #999;
 }
 
-a.fancybox-thumb > img:hover {
-  border: 1px solid black;
-}
 
 a.fancybox-thumb > img {
   margin: 10px;
+  border: 1px solid lightgray;
 }
 
+a.fancybox-thumb > img:hover {
+  border: 1px solid gray;
+}
+
+a.fancybox-thumb:hover {
+  text-decoration: none !important;
+}
