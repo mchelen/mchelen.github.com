@@ -14,4 +14,7 @@ Website built with:
 - <a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome</a>
 - <a href="https://github.com/lipis/bootstrap-social" target="_blank">Bootstrap Social</a>
 - <a href="https://github.com/mchelen/mchelen.github.com" target="_blank">Github Pages</a>
+- <a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">Magnific Popup</a>
+- <a href="http://gruntjs.com/" target="_blank">Grunt</a>
+
 
