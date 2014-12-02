@@ -9,8 +9,8 @@ tags : [Javascript, jQuery, CytoscapeJS, Visualization]
 
 {% assign gallery = "richcitations-cytoscapejs.jpg" %}
 {% include popup.html %}
-
-http://bl.ocks.org/mchelen/a0512b645949935fb6c0
+<br/>
+<a href="http://bl.ocks.org/mchelen/a0512b645949935fb6c0" target="_blank" class="btn btn-default" role="button">Live Demo</a> <a href="https://gist.github.com/mchelen/a0512b645949935fb6c0" class="btn btn-default" target="_blank"><span class="fa fa-github"></span> Source Code</a>
 
 
 <!--more-->
