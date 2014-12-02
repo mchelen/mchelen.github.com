@@ -207,4 +207,8 @@ font-style: italic;
     float: right;
 }
 
+/* glyphicon spacing fix */
+.glyphicon:empty {
+  width: 1.5em;
+}
 
