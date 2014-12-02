@@ -216,3 +216,12 @@ font-style: italic;
 .gray {
   color: #999;
 }
+
+a.fancybox-thumb > img:hover {
+  border: 1px solid black;
+}
+
+a.fancybox-thumb > img {
+  margin: 10px;
+}
+

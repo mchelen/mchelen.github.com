@@ -23,10 +23,15 @@
     
     <!-- bootstrap-social -->
     <link href="{{ ASSET_PATH }}/css/bootstrap-social.css?body=1" rel="stylesheet" type="text/css" media="all">
-    
+ 
     <!-- Font-Awesome -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+    
+    <!-- fancybox -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/fancybox/2.1.5/helpers/jquery.fancybox-buttons.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/fancybox/2.1.5/helpers/jquery.fancybox-thumbs.min.css">
+  
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -98,5 +103,30 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="//cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+    <script src="//cdn.jsdelivr.net/fancybox/2.1.5/helpers/jquery.fancybox-buttons.min.js"></script>
+    <script src="//cdn.jsdelivr.net/fancybox/2.1.5/helpers/jquery.fancybox-media.min.js"></script>
+    <script src="//cdn.jsdelivr.net/fancybox/2.1.5/helpers/jquery.fancybox-thumbs.min.js"></script>
+
+
+
+    <script>
+    $(document).ready(function() {
+	    $(".fancybox-thumb").fancybox({
+		    prevEffect	: 'none',
+		    nextEffect	: 'none',
+		    helpers	: {
+			    title	: {
+				    type: 'outside'
+			    },
+			    thumbs	: {
+				    width	: 50,
+				    height	: 50
+			    }
+		    }
+	    });
+    });
+    </script>
   </body>
 </html>
