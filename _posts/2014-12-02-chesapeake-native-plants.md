@@ -2,9 +2,12 @@
 layout: post
 category : portfolio
 tagline: "Android app with html/css/js"
-tags : [android, javascript, html, css, jquery]
+tags : [Android, Javascript, HTML, CSS, jQuery]
 ---
 {% include JB/setup %}
+
+{% assign gallery = "screenshot-search-berry.jpg,screenshot-detail-ilex.jpg,screenshot-search-flower.jpg,screenshot-detail-asclepias.jpg" | split: "," %}
+{% include popup.html galleryImgWidth=75 %}
 
 Uses: 
 jquery, jqm
@@ -18,26 +21,14 @@ ant
 
 
 
+	
 
 
 
 
-<div>
-  <a class="fancybox-thumb" rel="fancybox-thumb" href="/file/screenshot-search-berry.jpg" title="">
-	  <img src="/file/thumbs/screenshot-search-berry.jpg" alt="" width="60" />
-  </a>
 
-  <a class="fancybox-thumb" rel="fancybox-thumb" href="/file/screenshot-detail-ilex.jpg" title="">
-	  <img src="/file/thumbs/screenshot-detail-ilex.jpg" alt="" width="60" />
-  </a>
-  <a class="fancybox-thumb" rel="fancybox-thumb" href="/file/screenshot-search-flower.jpg" title="">
-	  <img src="/file/thumbs/screenshot-search-flower.jpg" alt="" width="60" />
-  </a>
-  <a class="fancybox-thumb" rel="fancybox-thumb" href="/file/screenshot-detail-asclepias.jpg" title="">
-	  <img src="/file/thumbs/screenshot-detail-asclepias.jpg" alt="" width="60" />
-  </a>
-</div>
 
+<!--more-->
 
 
 
