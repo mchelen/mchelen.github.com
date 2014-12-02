@@ -10,10 +10,10 @@ module.exports = function(grunt) {
     image_resize: {
       resize: {
         options: {
-          width: 100,
+          width: 150,
         },
         src: 'file/*.jpg',
-        dest: 'file/thumbs/'
+        dest: 'file/thumb/'
       }
     },
 
