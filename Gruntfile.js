@@ -16,14 +16,30 @@ module.exports = function(grunt) {
         dest: 'file/thumb/'
       }
     },
+    
+    imagemin: {
+      dist: {
+        options: {
+          optimizationLevel: 7,
+          progressive: true
+        },
+        files: [{
+          expand: true,
+          cwd: 'file/',
+          src: '{,*/}*.{png,jpg,jpeg}',
+          dest: 'file/'
+        }]
+      }
+    }
 
 
   });
 
   grunt.loadNpmTasks('grunt-image-resize');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
   
   // Default task.
-  grunt.registerTask('default', ['jshint', 'qunit', 'concat', 'uglify']);
+  grunt.registerTask('default', ['image_resize', 'imagemin',]);
 
   grunt.registerTask('resize', [
   'image_resize'
