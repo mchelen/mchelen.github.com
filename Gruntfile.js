@@ -12,7 +12,7 @@ module.exports = function(grunt) {
         options: {
           width: 150,
         },
-        src: 'file/*.jpg',
+        src: ['file/*.jpg','file/*.png'],
         dest: 'file/thumb/'
       }
     },
