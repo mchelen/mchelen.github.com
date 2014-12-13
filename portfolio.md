@@ -13,7 +13,9 @@ weight: 1
 <h1>
   <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 </h1>
-
+  {% include popup.html imgWidth=post.galleryImgWidth images=post.gallery %}
+  <br />
+  {% include buttonbar.html buttons=post.buttons %}
   {{ post.content | split:"<!--more-->" | first }}
 
   {% unless post.tags == empty %}
