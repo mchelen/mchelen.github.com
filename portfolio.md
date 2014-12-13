@@ -21,7 +21,7 @@ weight: 1
   {% unless post.tags == empty %}
 <ul class="tag_box inline">
   <li><i class="glyphicon glyphicon-tags gray"></i></li>
-  {% assign tags_list = post.tags %}
+  {% assign tags_list = post.tags | sort %}
   {% include JB/tags_list_nocount %}
 </ul>
   {% endunless %} 

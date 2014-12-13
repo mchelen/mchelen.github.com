@@ -22,7 +22,7 @@
   {% unless page.tags == empty %}
     <ul class="tag_box inline">
       <li><i class="glyphicon glyphicon-tags gray"></i></li>
-      {% assign tags_list = page.tags %}
+      {% assign tags_list = page.tags | sort %}
       {% include JB/tags_list_nocount %}
     </ul>
   {% endunless %}  
