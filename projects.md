@@ -15,7 +15,8 @@ weight: 0
 </h1>
 
   <img src="{{ BASE_PATH }}/file/thumb/{{ post.logo }}" />
-  
+  <br /><br />
+  {% include buttonbar.html buttons=post.buttons %}  
   {{ post.content | split:"<!--more-->" | first }}
 
   {% unless post.tags == empty %}
