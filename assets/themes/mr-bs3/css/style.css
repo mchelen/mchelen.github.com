@@ -236,16 +236,14 @@ div.popup-gallery a:hover {
 }
 
 
+/* */
 
-ul.portfolio-posts > li > h1 > a {
+
+#post-list h1 a {
 color: black;
 font-size: 125%;
 }
 
-ul.portfolio-posts {
-   list-style: none;
-}
-
-ul.portfolio-posts ul.tag_box {
+#post-list ul.tag_box {
   padding: 0px;
 }
