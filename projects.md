@@ -2,6 +2,7 @@
 layout: page
 title : Projects
 group: navigation
+weight: 0
 ---
 {% include JB/setup %}
 

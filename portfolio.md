@@ -1,7 +1,8 @@
 ---
 layout: page
 title : Portfolio
-group: secondary-navigation
+group: navigation
+weight: 1
 ---
 {% include JB/setup %}
 
