@@ -3,7 +3,7 @@ layout: project
 category : Project
 tagline: "json resume"
 tags : [Javascript, NodeJS]
-thumb: foo.png
+logo: json-resume-logo.png
 role: "Core Contributor"
 buttons:
   - ["https://jsonresume.org/","fa-link","Homepage"]
@@ -12,6 +12,3 @@ buttons:
 {% include JB/setup %}
 
 foo bar
-
-{% include buttonbar.html buttons=page.buttons %}
-
