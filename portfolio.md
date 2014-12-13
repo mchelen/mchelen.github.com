@@ -18,7 +18,7 @@ group: secondary-navigation
     <ul class="tag_box inline">
       <li><i class="glyphicon glyphicon-tags gray"></i></li>
       {% assign tags_list = post.tags %}
-      {% include JB/tags_list %}
+      {% include JB/tags_list_nocount %}
     </ul>
       {% endunless %} 
 
