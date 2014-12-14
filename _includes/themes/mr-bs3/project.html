@@ -7,10 +7,10 @@
     <div class="content">
       <img src="{{ BASE_PATH }}/file/thumb/{{ page.logo }}" style="max-width:150px"/>
       <br /><br />
-      {% include buttonbar.html buttons=page.buttons %}
       {{ content }}
     </div>
-
+  {% include buttonbar.html buttons=page.buttons %}
+  
   {% unless page.categories == empty %}
     <ul class="tag_box inline">
       <li><i class="glyphicon glyphicon-folder-open gray"></i></li>

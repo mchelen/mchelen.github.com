@@ -244,6 +244,27 @@ color: black;
 font-size: 125%;
 }
 
-#post-list ul.tag_box {
+ul.tag_box {
   padding: 0px;
+  margin-bottom: .5em;
 }
+
+ul.tag_box > :first-child {
+  width: 20px;
+}
+
+
+#post-list h1 {
+clear:both;
+}
+
+
+div.logo-div {
+ float:left;
+ margin-right:1em;
+}
+
+div.logo-div > img {
+ width: 100px;
+}
+
