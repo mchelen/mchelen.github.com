@@ -7,18 +7,9 @@
     <div class="content">
       {% include popup.html imgWidth=page.galleryImgWidth images=page.gallery %}
       <br />
-      {% include buttonbar.html buttons=page.buttons %}
       {{ content }}
     </div>
-
-  {% unless page.categories == empty %}
-    <ul class="tag_box inline">
-      <li><i class="glyphicon glyphicon-folder-open gray"></i></li>
-      {% assign categories_list = page.categories %}
-      {% include JB/categories_list_nocount %}
-    </ul>
-  {% endunless %}  
-
+  {% include buttonbar.html buttons=page.buttons %}
   {% unless page.tags == empty %}
     <ul class="tag_box inline">
       <li><i class="glyphicon glyphicon-tags gray"></i></li>
