@@ -268,3 +268,6 @@ div.logo-div > img {
  width: 100px;
 }
 
+#post-list .entry-content {
+  overflow:hidden;
+}

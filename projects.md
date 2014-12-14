@@ -11,12 +11,12 @@ weight: 0
   {% for post in site.categories["project"] %}
 
 <h1>
-  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> <small>{{ post.tagline }}</small>
 </h1>
 <div class="logo-div">
   <img src="{{ BASE_PATH }}/file/thumb/{{ post.logo }}" />
 </div>
-<div>
+<div class="entry-content">
   {{ post.content | split:"<!--more-->" | first }}
   {% include buttonbar.html buttons=post.buttons %}
   {% unless post.tags == empty %}
