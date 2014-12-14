@@ -13,12 +13,12 @@ weight: 0
 <h1>
   <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 </h1>
-
+<div class="logo-div">
   <img src="{{ BASE_PATH }}/file/thumb/{{ post.logo }}" />
-  <br /><br />
-  {% include buttonbar.html buttons=post.buttons %}  
+</div>
+<div>
   {{ post.content | split:"<!--more-->" | first }}
-
+  {% include buttonbar.html buttons=post.buttons %}
   {% unless post.tags == empty %}
 <ul class="tag_box inline">
   <li><i class="glyphicon glyphicon-tags gray"></i></li>
@@ -26,6 +26,8 @@ weight: 0
   {% include JB/tags_list_nocount %}
 </ul>
   {% endunless %} 
-    
+
+</div>    
   {% endfor %}
 </div>
+
