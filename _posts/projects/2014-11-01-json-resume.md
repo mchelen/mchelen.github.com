@@ -1,7 +1,7 @@
 ---
 layout: project
 category : Project
-tagline: "json resume"
+tagline: "Core Developer"
 tags : [Javascript, NodeJS]
 logo: json-resume-logo.png
 role: "Core Contributor"

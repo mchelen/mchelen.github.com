@@ -1,7 +1,7 @@
 ---
 layout: project
 category : project
-tagline: "Open Science Information"
+tagline: "Founder"
 tags : [Open Science, Blog, Technical Writing]
 logo: opensci-logo.png
 buttons:
