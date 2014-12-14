@@ -11,4 +11,4 @@ buttons:
 ---
 {% include JB/setup %}
 
-foo bar
+Personal Blog
