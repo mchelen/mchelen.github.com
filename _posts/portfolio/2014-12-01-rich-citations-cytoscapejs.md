@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 category : Portfolio
 tagline: "Visualize citation networks"
 title: "Rich Citations CytoscapeJS"

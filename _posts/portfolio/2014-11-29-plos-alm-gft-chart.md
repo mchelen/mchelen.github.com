@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 category : Portfolio
 tagline: "Supporting tagline"
 title: "PLoS Article Metrics Visualization"
