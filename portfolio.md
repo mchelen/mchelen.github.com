@@ -15,9 +15,8 @@ weight: 1
 </h1>
   {% include popup.html imgWidth=post.galleryImgWidth images=post.gallery %}
   <br />
-  {% include buttonbar.html buttons=post.buttons %}
   {{ post.content | split:"<!--more-->" | first }}
-
+  {% include buttonbar.html buttons=post.buttons %}
   {% unless post.tags == empty %}
 <ul class="tag_box inline">
   <li><i class="glyphicon glyphicon-tags gray"></i></li>
