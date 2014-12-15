@@ -7,7 +7,7 @@ tags : [Javascript, jQuery, CytoscapeJS, Visualization, Bibliometrics]
 gallery: "richcitations-cytoscapejs.jpg"
 buttons:
  - ["http://bl.ocks.org/mchelen/a0512b645949935fb6c0","fa-link","Live Demo"]
- - ["https://gist.github.com/mchelen/a0512b645949935fb6c0","fa-github","Source Code<"]
+ - ["https://gist.github.com/mchelen/a0512b645949935fb6c0","fa-github","Source Code"]
 ---
 {% include JB/setup %}
 
