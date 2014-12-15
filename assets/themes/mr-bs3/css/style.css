@@ -253,6 +253,10 @@ ul.tag_box > :first-child {
   width: 20px;
 }
 
+ul.noglyph > :first-child {
+  width: initial !important;
+}
+
 
 #post-list h1 {
 clear:both;
@@ -271,3 +275,7 @@ div.logo-div > img {
 #post-list .entry-content {
   overflow:hidden;
 }
+
+
+
+
