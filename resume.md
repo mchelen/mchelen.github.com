@@ -7,6 +7,18 @@ isresume: true
 ---
 {% include JB/setup %}
 
+
+<div class="resume-buttons">
+<a href="/file/Michael_Chelen.pdf" class="btn btn-default btn-sm"><i class="fa fa-download"></i> Download</a> 
+<a href="#" class="btn btn-default btn-sm"><i class="fa fa-print"></i> Print</a>
+</div>
+
+
+<!--
+<div style="float:right;top: -3em; position: absolute;right: 6em;"><a href="/file/Michael_Chelen.pdf" class="btn btn-default btn-sm"><i class="fa fa-download"></i> Download</a></div>
+<div style="float:right;top: -3em; position: absolute;right: 1em;"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-print"></i> Print</a></div>
+-->
+
 <!--Biologist experienced in high-throughput data analysis using open standards and web-based
 communication.-->
 <i class="fa fa-envelope"></i> <Michael.Chelen@gmail.com>
