@@ -9,8 +9,9 @@ tagline: Welcome to my website
 <img class="inset right" width="120px" alt="Photo of Michael Chelen" title="Michael Chelen" src="./file/michael_chelen.jpeg" style="margin-top: -3em;">
 </p>
 
+I am a programmer and biologist who is interested in open source and open science.
 
-## Links
+## Networks
 
 <!--
 <a class="btn btn-block btn-social btn-twitter btn-lg" href="https://twitter.com/mikechelen" target="_blank">
