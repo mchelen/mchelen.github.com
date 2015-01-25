@@ -37,5 +37,10 @@ a[href]:after {
 
 h1, h2 {
     page-break-after: avoid;
-  }
+}
+
+
+.no-print {
+  display:none;
+}
 

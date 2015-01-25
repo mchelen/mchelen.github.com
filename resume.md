@@ -8,9 +8,9 @@ isresume: true
 {% include JB/setup %}
 
 
-<div class="resume-buttons">
+<div class="resume-buttons no-print">
 <a href="/file/Michael_Chelen.pdf" class="btn btn-default btn-sm"><i class="fa fa-download"></i> Download</a> 
-<a href="#" class="btn btn-default btn-sm"><i class="fa fa-print"></i> Print</a>
+<a href="javascript:window.print()" class="btn btn-default btn-sm"><i class="fa fa-print"></i> Print</a>
 </div>
 
 
