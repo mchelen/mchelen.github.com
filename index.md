@@ -29,7 +29,7 @@ I am a programmer and biologist who is interested in open source and open scienc
   <a class="btn btn-social-icon btn-google-plus btn-lg" href="mailto:michael.chelen@gmail.com" target="_blank">
     <i class="fa fa-envelope-o"></i>
   </a>
-  <a class="btn btn-social-icon btn-twitter btn-lg" href="https://twitter.com/mikechelen" target="_blank">
+  <a class="btn btn-social-icon btn-twitter btn-lg" href="https://twitter.com/mchelen" target="_blank">
     <i class="fa fa-twitter"></i>
   </a>
   <a class="btn btn-social-icon btn-linkedin btn-lg" href="https://linkedin.com/in/michaelchelen" target="_blank">
