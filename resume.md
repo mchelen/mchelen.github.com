@@ -27,7 +27,7 @@ communication.-->
 # Summary #
 Software developer and data analyst, with experience in scientific research and server administration.
 
- - Development of web server software backend and frontend using common frameworks.
+ - Development of web server software backend and frontend using standard frameworks.
 
  - Project planning and management, independently and in coordination with teams.
  
@@ -47,7 +47,7 @@ Minor, Chemical Sciences
 *March 2009 - Present*  
 Develop software for web services, data analysis, and backend administration. Perform software implementation and system administration. Plan and coordinate projects with client teams.
 
-  Projects:
+  Clients:
 
  - **[Sidescape](http://sidescapemedia.com)** Manage small team for LAMP and Drupal Commerce server administration. Deploy virtual machines hosted on Rackspace and Amazon AWS using Ansible. Mitigate malicious traffic using IP Tables and Fail2Ban.
  - **[Noodle](http://www.noodle.com/)** Optimize and debug SOLR search queries. Create developer tools for testing Django. Coordinate development using issue tracker and Vagrant.
@@ -108,13 +108,14 @@ May 2008 - Present
 
 - Programming languages: PHP, Java, JavaScript, BASH, Python, NodeJS
 - Server software: Apache, MySQL, SOLR, nginx
-- Frontend: HTML, CSS, JQuery, JQuery Mobile, Bootstrap, SASS
+- Frontend: HTML, CSS, JQuery, Bootstrap, SASS
 - DevOps: Ansible, Vagrant, Docker, Travis CI, Grunt, QUnit
 - Version Control: Git, Subversion, CVS
 - Data formats: SQL, XML, JSON
 - System Administration: IPTables, fail2ban
 - Visualization: d3.js, Google Charts, CytoscapeJS, GnuPlot
 - Data Analysis: R, Google Fusion Tables, CSVkit, ImageJ, Matlab
+- Mobile: Android, Gradle, JQuery Mobile
 - Biology: PCR, Microarray, Fluorescence Microscopy
                                                      
 # Honors and Awards #
