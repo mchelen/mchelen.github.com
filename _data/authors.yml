@@ -1,0 +1,11 @@
+# Sample Authors
+# Remove file or replace with your own
+
+Mike Chelen:
+  name: Mike Chelen
+  picture: /images/bio-photo-2.jpg
+  twitter: "@mchelen"
+  links:
+    - title: Twitter
+      url: https://twitter.com/mchelen
+      icon: fab fa-twitter-square
