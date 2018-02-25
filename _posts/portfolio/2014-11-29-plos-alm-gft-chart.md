@@ -11,6 +11,5 @@ galleryImgWidth: 150
 buttons:
  - ["http://blog.opensci.info/7230/Visualize-PLoS-ALM-Charts-with-Google-Fusion-Tables/","fa-link","Blog Post"]
 ---
-{% include JB/setup %}
 
 Use Google Fusion Tables for data queries that are visualized with Google Charts API.

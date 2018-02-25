@@ -13,7 +13,6 @@ gallery:
  - "screenshot-detail-asclepias.jpg"
 galleryImgWidth: 75
 ---
-{% include JB/setup %}
 
 Search for native plants of the Chesapeake Bay watershed using the Native Plant Center database. From the search results, you can select a plant by its picture and see more details including sunlight and soil requirements. This is an unofficial app and not endorsed by Native Plant Center.
 
